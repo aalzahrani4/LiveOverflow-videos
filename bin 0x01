@@ -1,0 +1,15 @@
+"Everything is a file" in Unix and its derivatives.
+Use command ls  (ls -- list directory contents)
+ls -la (shows dot file -- hidden files or config files)
+d:The file type
+rwx:The permissions that the owner has over the file
+rwx:The permissions that the group has over the file
+rwx:The permissions that all the other users have over the file
+Pipes and redirection: connect multiple commands together
+cat rabbit | hexdump
+hexdump: a tool that shows the hex value for each character
+cat rabbit | hexdump -C
+hex "0a": new line character
+Be familiar with Hex you going to use it a lot!!
+man ascii
+https://www.youtube.com/watch?v=navuBR4aJSs&index=2&list=PLhixgUqwRTjxglIswKp9mpkfPNfHkzyeN
